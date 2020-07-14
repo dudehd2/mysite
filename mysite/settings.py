@@ -25,7 +25,8 @@ SECRET_KEY = 'zzajpl-rwy(wha^0l=n3@pn_a_ki@ugn_^1d8r%&f0)lg32zf^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
 
 
 # Application definition
